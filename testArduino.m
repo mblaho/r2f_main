@@ -1,4 +1,6 @@
-%[text] Nadpis
+%% 
+% Nadpis
+
 % vytvorenie objektu a pre spojenie s Arduinom
 a=arduino
 %%
@@ -9,9 +11,3 @@ a.writeDigitalPin('D7',1)
 %%
 clear
 % clear a
-
-%[appendix]{"version":"1.0"}
-%---
-%[metadata:view]
-%   data: {"layout":"inline"}
-%---
