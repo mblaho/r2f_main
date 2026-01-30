@@ -1,6 +1,8 @@
 %[text] Nadpis
 % vytvorenie objektu a pre spojenie s Arduinom
-a=arduino
+a=arduino('COM3','MEGA2560',"Libraries","Ultrasonic")
+%%
+ultra = ultrasonic(a,'D2','D3')
 %%
 clear
 % clear a
